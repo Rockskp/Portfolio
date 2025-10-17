@@ -1,150 +1,302 @@
-import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
+import {
+  IconBrandAzure,
+  IconBrandGithub,
+  IconBrandLeetcode,
+  IconBrandLinkedin,
+  IconBrandTwitter,
+} from "@tabler/icons-react";
+
 const Info = {
-    name: "Chandrabhan Maurya",
-    stack: ["Software Engineer", "Full Stack Developer", "Competitive Programmer", "Freelancer", "Open Source Contributor"],
-    bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!"
-}
-
-
+  name: "Saran Kumar",
+  stack: [
+    "AI Engineer",
+    "Cloud Engineer",
+    "IT Engineer",
+    "Full Stack Developer",
+  ],
+  bio: [
+    " Microsoft Azure and Oracle Certified Cloud & AI Engineer with 8 years of experience in cloud infrastructure, backend development, and intelligent automation. Proven expertise in deploying and managing Azure Virtual Machines, designing scalable microservices, and integrating Generative AI solutions using Python, JSON, and REST APIs into enterprise workflows. Architected Agentic AI chatbot solutions for Microsoft Outlook, SharePoint, and Teams, leveraging LangChain, Retrieval-Augmented Generation  and GPT-based large language models  to enhance productivity and automation across business operations. Experienced in full-stack development, cloud computing, and AI integration. Committed to continuous learning and leveraging cutting-edge technologies to drive impactful results.",
+  ],
+};
 
 const ProjectInfo = [
-    {
-        title: "Ekart E-comm App",
-        desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
-        image: "Ekart.png",
-        live: true,
-        technologies: ["React", "Tailwind", "Redux", "Heroicons", "HeadlessUI"],
-        link: "https://code-mars.github.io/Ekart/",
-        github: "https://github.com/Code-Mars/Ekart/"
-    },
-    {
-        title: "Facebook Clone",
-        desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, posting, and commenting. The front end is built with React, TailwinCSS, Tabler-Icons, Mantine and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, post updates, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "Facebook.png",
-        live: false,
-        technologies: ["React", "Springboot", "MongoDB", "Tailwind", "Tabler-Icons", "Firebase"],
-        link: "https://github.com/Code-Mars/Facebook-Clone",
-        github: "https://github.com/Code-Mars/Facebook-Clone"
-    },
-    {
-        title: "Spotify Clone",
-        desc: "Spotify Clone is a full-stack web application that replicates the core features of Spotify, including user authentication, music playback, and playlist creation. The front end is built with React, TailwindCSS, Heroicons, and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, search for songs, and create playlists. The app features real-time updates, so users can see new songs as they are added. Spotify Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "Spotify.png",
-        live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-        link: "https://github.com/Code-Mars/Spotify-Clone",
-        github: "https://github.com/Code-Mars/Spotify-Clone"
-    },
-    {
-        title: "Travel Tracker",
-        desc: "Travel Tracker is a full-stack web application that allows users to track their travel experiences and share them with others. The front end is built with React, Bootstrap, while the back end uses Node.js, Express, and PostgresSQL. Users can create an account, log in, add new trips, and view their past trips on a map. The app features a clean, modern design with interactive maps and a user-friendly interface. Travel Tracker combines functionality with style, making it easy and enjoyable to record and share travel memories.",
-        image: "Travel.png",
-        live: false,
-        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://github.com/Code-Mars/Travel-Tracker",
-        github: "https://github.com/Code-Mars/Travel-Tracker"
-    },
-    {
-        title: "Instagram Clone",
-        desc: "Instagram Clone is a full-stack web application that replicates the core features of Instagram, including user authentication, image uploading, and commenting. The front end is built with React, TailwindCSS, and Heroicons, while the back end uses Firebase for user authentication and image storage. Users can create an account, log in, upload images, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Instagram Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "Instagram.png",
-        live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Heroicons", "Firebase", "MongoDB"],
-        link: "https://github.com/Code-Mars/Instagram-Clone",
-        github: "https://github.com/Code-Mars/Instagram-Clone"
-    },
-    {
-        title: "CodeX Code Editor",
-        desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, offering a seamless coding experience across all devices. It features syntax highlighting for popular programming languages, including HTML, CSS, JavaScript, Python, and Java. Users can create, edit, and save code files, with the option to download them as text files. CodeX combines robust functionality with a sleek, intuitive design, making coding effortless and enjoyable.",
-        image: "CodeX.png",
-        live: false,
-        technologies: ["React", "Tailwind", "Ace Editor"],
-        link: "https://github.com/Code-Mars/CodeX",
-        github: "https://github.com/Code-Mars/CodeX"
-    }
-]
+  {
+    title: "Generative AI-Powered Knowledge Assistant",
+    desc: "Developed Agentic AI chatbot using LangChain, OpenAI GPT models, and RAG (Retrieval-Augmented Generation) to summarize enterprise documents from SharePoint, Outlook, and Teams. Implemented vector search with FAISS/ChromaDB for intelligent context retrieval.",
+    image: "Project1.jpeg",
+    live: true,
+    technologies: [
+      "Python",
+      "React",
+      "LangChain",
+      "OpenAI API",
+      "Vector DB",
+      "Azure OpenAI",
+    ],
+    impact: [
+      "Automated 70% of internal support queries and improved information retrieval speed by 3×.",
+    ],
+    link: "https://github.com/Rockskp",
+    github: "https://github.com/Rockskp/",
+  },
+  {
+    title: "AI-Powered Insights API",
+    desc: "Built and deployed AI-driven REST API endpoints to perform document summarization, sentiment analysis, and key insight extraction for internal dashboards. Exposed endpoints to React-based dashboards using FastAPI and Azure Functions.",
+    image: "Project2.jpeg",
+    live: false,
+    technologies: [
+      "React",
+      "Springboot",
+      "MongoDB",
+      "Tailwind",
+      "Tabler-Icons",
+      "Firebase",
+    ],
+    link: "https://github.com/Rockskp",
+    github: "https://github.com/Rockskp/",
+  },
 
+  {
+    title:"Real-Time ETL and Data Pipeline Automation",
+    desc: " ETL pipelines and real-time ingestion systems using Apache Kafka, Azure Databricks, and SQL Server for streaming and analytics workloads. Developed data validation and enrichment scripts using Python and integrated with downstream BI systems.",
+    image: "Project2a",
+    live: false,
+    technologies: [ "Apache Kafka", "Databricks", "Python", "Azure Data Factory", "PostgresSQL",  "ETL-Extract, Transform, Load", "Data Pipelines"],
+    link: "https://github.com/Rockskp",
+    github: "https://github.com/Rockskp/",
+
+
+  },
+   {
+      title: "Maven Springboot Project",
+      desc: "Spotify Clone is a full-stack web application that replicates the core features of Spotify, including user authentication, music playback, and playlist creation. The front end is built with React, TailwindCSS, Heroicons, and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, search for songs, and create playlists. The app features real-time updates, so users can see new songs as they are added. Spotify Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
+      image: "Project3a.png",
+      live: false,
+      technologies: [
+        "React",
+        "Springboot",
+        "Java",
+        "Tabler-Icons",
+        "Maven",
+        "MongoDB",
+        "Firebase",
+      ],
+      link: "https://github.com/Rockskp/mavenSpringBoot",
+      github: "https://github.com/Rockskp/mavenSpringBoot",
+    },
+  {
+    title: "Azure Cloud Infrastructure Implementation",
+    desc: " Designed and implemented scalable cloud infrastructure on Microsoft Azure, including Virtual Networks, VMs, and Storage Accounts. Automated deployments using ARM templates and managed identity and role-based access control (RBAC) for secure resource access.",
+    image: "Project4.png",
+    live: false,
+    technologies: [
+      "Microsoft Azure",
+      "ARM Templates",
+      "Azure VMs", "Azure AD",
+      "RBAC",
+      "Azure Monitor",
+      "Azure Data Lake",
+      "SQL Server", "PostgresSQL","Azure HDInsight", "Azure Hostpool", "Azure Virtual Desktop"
+    ],
+  link: "https://github.com/Rockskp",
+    github: "https://github.com/Rockskp/",
+  },
+  {
+    title: "Hybrid Cloud Governance, Intune, MDM, Secure Identity, Access Management (IAM) & Cost Optimization",
+    desc: "Designed multi-cloud architecture with Azure and AWS ensuring governance, compliance, and cost optimization. Deployed automated cost-control policies and centralized monitoring for workloads across environments. Maintained VM synchronization jobs and services like Harvester and Coddler for system consistency. Implemented RBAC, MFA, and Conditional Access using Azure Active Directory to strengthen user and application security. Integrated Azure Monitor and Log Analytics for proactive system monitoring and alerting via custom dashboards. Managed secure identity and access using Azure AD, Conditional Access, and Privileged Identity Management (PIM). Conducted cost analysis and optimization using Azure Cost Management and implemented tagging strategies for resource tracking.",
+    image: "Project6.png",
+    live: false,
+    technologies: [
+      "Microsoft Azure",
+      "AWS","S3",
+      "Hybrid Cloud","VPS",
+      "Cloud Governance",
+      "Cost Optimization",
+      "IAM",
+      "Azure AD",
+      "RBAC",
+      "MFA",
+      "PIM",
+      "Azure Monitor",
+      "Log Analytics",
+      "Cost Management",
+      "Tagging Strategies",
+
+
+      ],
+    link: "https://github.com/Rockskp",
+    github: "https://github.com/Rockskp/",
+  },
+];
 
 const SkillInfo = [
-    {
-        title: "Frontend",
-        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "GSAP", "Material UI", "Bootstrap"
-        ]
-    },
-    {
-        title: "Backend",
-        skills: ["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase", "PostgresSQL"]
-    },
-    {
-        title: "Languages",
-        skills: ["C", "C++", "Java", "JavaScript", "TypeScript"]
-    },
-    {
-        title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
-    }
-]
-const socialLinks = [
-    { link: "https://github.com/Code-Mars", icon: IconBrandGithub },
-    { link: "https://www.linkedin.com/in/chandrabhan-maurya", icon: IconBrandLinkedin },
-    { link: "https://www.instagram.com/code.marshal_", icon: IconBrandInstagram }, 
-    { link: "https://www.youtube.com/channel/UC1ki6jaFvFiH_E79b9FYptw", icon: IconBrandYoutube },
-    { link: "https://www.leetcode.com/u/CodeMars", icon: IconBrandLeetcode }
-];
+  {
+    title: "Frontend Development",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "Angular",
+      "Redux",
+      "Tailwind CSS",
+      "Bootstrap",
+    ],
+  },
+  {
+    title: "Backend Development",
+    skills: [
+      "Springboot",
+      "Node JS",
+      "MySQL",
+      "MongoDB",
+      "Firebase",
+      "PostgresSQL",
+    ],
+  },
+  {
+    title: "AI & Data Science",
+    skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Scikit-Learn", "TensorFlow","Kafka"],
+  },
+  {
+    title: "Cloud Platforms",
+    skills: [
+      "Microsoft Azure",
+      "Oracle Cloud",
+      "Azure VMs",
+      "Azure AD",
+      " RBAC",
+      "Azure Monitor",
+      "Azure Data Lake",
+      "AWS",
+      "S3",
+    ],
+  },
+  {
+    title: "Languages and Tools",
+    skills: [
+        "Java", "Python", "JavaScript", "TypeScript",
+      "Git",
+      "Github",
+      "VS Code",
+      "Postman",
+      "MongoDB Compass",
+      "AzureBotFramework",
+      "Spring Tool Suite",
+      "IntelliJ IDEA",
+      "Eclipse IDE",
+      "Android Studio",
+      " Docker",
+      " Kubernetes",
+      " Jenkins",
+      "CI/CD Pipelines",
+    ],
+  },
+  {
+    title: "Generative AI & LLMs Integration",
+    skills: [
+      "OpenAI GPT Models",
+      "Azure OpenAI",
+      "LangChain",
+      "Google Studio API",
+      "RAG",
+      "Vector Databases",
+      "RESTful APIs",
+        "JSON",
+        "NLP",
+        "Chatbot Development",
+        "AI Model Fine-Tuning",
+        "Prompt Engineering",
+        "AI Ethics and Compliance",
+        "N8N Platform Automation",
 
+    ],
+  },
+];
+const socialLinks = [
+  { link: "https://github.com/Rockskp", icon: IconBrandGithub },
+  { link: "www.linkedin.com/in/s-p-k-146001239", icon: IconBrandLinkedin },
+  { link: "https://x.com/explore", icon: IconBrandTwitter },
+  {
+    link: "https://www.geeksforgeeks.org/user/kpfullsgm9b/",
+    icon: IconBrandAzure,
+  },
+  { link: "https://leetcode.com/progress/", icon: IconBrandLeetcode },
+];
 
 const ExperienceInfo = [
-    {
-        role: "Specialist Programmer",
-        company: "Infosys",
-        date: "Oct 2023 - Present",
-        desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
-        skills: ["Springboot", "React JS", "Angular", "Node JS", "MySQL", "MongoDB", "Microservices"]
-    },
-    {
-        role: "System Engineer",
-        company: "Infosys",
-        date: "Nov 2022 - Sep 2023",
-        desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
-        skills: ["Java", "MySQL", "Hibernate", "Selenium", "Jenkins", "JIRA", "Automation Testing"]
-    }
-]
-const Slugs = [
-    "typescript",
-    "spring",
-    "javascript",
-    "dart",
-    "java",
-    "react",
-    "angular",
-    "flutter",
-    "android",
-    "html5",
-    "css3",
-    "springboot",
-    "mongodb",
-    "selenium",
-    "nodedotjs",
-    "express",
-    "nextdotjs",
-    "prisma",
-    "mysql",
-    "amazonaws",
-    "postgresql",
-    "firebase",
-    "nginx",
-    "vercel",
-    "testinglibrary",
-    "jest",
-    "cypress",
-    "docker",
-    "git",
-    "jira",
-    "github",
-    "gitlab",
-    "visualstudiocode",
-    "androidstudio",
-    "sonarqube",
-    "figma",
+  {
+    role: "AI Cloud Engineer",
+    company: "AdvantaSure, VA",
+    date: "Oct 2023 - Present",
+    desc: " Provisioned and optimized Azure VMs across departments using Azure AD, enhancing performance and availability. Automated secure deployments with ARM templates and Terraform; configured NSGs, VNets, and storage. Implemented RBAC, MFA, Conditional Access; monitored systems via Azure Monitor and custom dashboards. Designed CI/CD cloud architectures across Azure/AWS with governance, cost control, and VM sync services. Built Generative AI apps using LangChain, OpenAI, RAG, and vector DBs for summarization and chat agents. Developed ML models and ETL pipelines with Python, TensorFlow, Kafka, and Databricks for real-time insights.",
+    skills: [
+      "Springboot",
+      "React JS",
+      "Angular",
+      "Node JS",
+      "MySQL",
+      "MongoDB",
+      "Microservices",
+    ],
+  },
+  {
+    role: "Software Engineer",
+    company: "HMS Corp",
+    date: "Nov 2022 - Sep 2023",
+    desc: " Built responsive web apps using HTML5, CSS3, JavaScript, React.js, and Angular.js with dynamic routing and JWT. Developed scalable RESTful APIs and microservices using Java 1.8, Spring Boot, Hibernate, and J2EE design patterns. Integrated REST APIs, XML/JAXB, and Apache Camel for protocol-based messaging with JMS and async processing. Automated CI/CD with Jenkins, Maven, Git; deployed on AWS EC2, Elastic Beanstalk, and managed Ubuntu instances. Designed relational schemas, wrote complex SQL queries, and used Hibernate for ORM with Oracle and MySQL. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
+    skills: [
+      "Java",
+      "MySQL",
+      "Hibernate",
+      "Selenium",
+      "Jenkins",
+      "JIRA",
+      "Automation Testing",
+      "Springboot",
+      "React JS",
+      "Angular",
+       "Node JS",
+       "MySQL",
+       "MongoDB",
+       "Microservices",
+    ],
+  },
 ];
-export { Info, ProjectInfo,socialLinks, SkillInfo, ExperienceInfo, Slugs };
+const Slugs = [
+  "typescript",
+  "spring",
+  "javascript",
+  "dart",
+  "java",
+  "react",
+  "angular",
+  "html5",
+  "css3",
+  "springboot",
+  "mongodb",
+  "selenium",
+  "python",
+  "nodejs",
+  "azure",
+  "mysql",
+  "amazonaws",
+  "postgresql",
+  "firebase",
+  "nginx",
+  "tailwindcss",
+  "bootstrap",
+  "docker",
+  "testinglibrary",
+  "jenkins",
+  "git",
+  "jira",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "androidstudio",
+  "eclipseide",
+  "intellijidea",
+  "postman",
+];
+export { Info, ProjectInfo, socialLinks, SkillInfo, ExperienceInfo, Slugs };
